@@ -7,10 +7,7 @@ import java.util.Date;
  * @author Administrator
  *
  */
-/**
- * @author Administrator
- *
- */
+
 public class TestTb {
 	private Integer id;
 	private String name;

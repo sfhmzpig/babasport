@@ -1,5 +1,7 @@
 package cn.itcast;
 
+import java.util.Date;
+
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -21,8 +23,8 @@ public class TestTestTb extends SpringJunitTest {
 	@Test
 	public void testAdd() throws Exception{
 		TestTb testTb=new TestTb();
-		testTb.setName("金金金");
-		
+		testTb.setName("测试");
+		testTb.setBirthday(new Date());
 		testTbService.addTestTb(testTb);
 		
 	}
